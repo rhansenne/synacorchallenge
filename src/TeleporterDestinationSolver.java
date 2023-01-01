@@ -5,8 +5,8 @@
 public class TeleporterDestinationSolver {
 
 	static int[] stack = new int[4];
-	static int stackSize = 0;
 	static int[] stackrepetitions = new int[5]; // compress repetitions on the stack
+	static int stackSize = 0;
 		
 	public static void main(String[] args) {
 		for (int i=0;i<32768;i++)
