@@ -1,6 +1,6 @@
-# Syncore Challenge Solution in Java
+# Synacor Challenge Solution in Java
 
-My (quick & dirty) solution in Java for the Syncore Challenge: https://challenge.synacor.com/
+My (quick & dirty) solution in Java for the Synacor Challenge: https://challenge.synacor.com/
 
 **SPOILERS ahead** - don't read on if you plan to attempt the challenge yourself!
                                                                           
