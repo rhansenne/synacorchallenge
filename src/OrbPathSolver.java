@@ -24,9 +24,7 @@ public class OrbPathSolver {
 	}
 	
 	public static void main(String[] args) {
-		List<Path> paths = new ArrayList<Path>();
-		Path startPath = new Path(ROW_START,COL_START,1,'*',"");
-		paths.add(startPath);
+		List<Path> paths = new ArrayList<Path>() {{ add(new Path(ROW_START,COL_START,1,'*',"")); }};
 		List<Path> nextPaths = new ArrayList<Path>();
 		outer: while(true) {
 			for (Path path:paths) {
